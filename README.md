@@ -34,3 +34,38 @@ To get started with the project, clone the repository and install the required d
 git clone https://github.com/yourusername/body-tracking-project.git
 cd body-tracking-project
 pip install -r requirements.txt
+```
+## 🚶‍♂️ Usage
+
+To begin tracking, simply run the provided Jupyter notebook or use the command-line interface:
+
+```bash
+python src/main.py --input video.mp4 --output tracked_video.mp4
+```
+
+## 💡 Examples
+
+Check out the **`notebooks`** directory for detailed examples and use cases. these examples demonstrate how to:
+
+- Track a single person in a video.
+- Analyze body posture in real-time.
+- Compare different tracking models for performance evaluation.
+
+## 🛠️ Customization
+
+The project is designed to be easily customizable:
+
+- Modify the tracking parameters in **`config.yaml`**.
+- Add new models to the **`/models`** directory.
+- Extend the analytics capabilities by modifying the **`/src/analytics.py script`**.
+
+## 🤝 Contributing
+
+We welcome contributions! If you have ideas to improve this project, feel free to fork the repository and submit a pull request. Please ensure that your code adheres to our coding standards and includes tests where applicable.
+
+## 📄 License
+This project is licensed under the MIT License. See the [LICENSE](https://license) file for more details.
+
+## 📧 Contact
+
+For any questions, feedback, or collaboration opportunities, feel free to reach out at aghikalam2@gmail.com.
